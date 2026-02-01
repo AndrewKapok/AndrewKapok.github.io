@@ -1,0 +1,14 @@
+{
+    "algorithm":"算法",
+    "algorithm/SegmentTree.md":"线段树",
+    "algorithm/tarjan.md":"Tarjan算法",
+    "solution":"题解",
+    "solution/P13800.md":"P13800题解",
+    "study_note":"学习笔记",
+    "study_note/chinese":"中文",
+    "study_note/chinese/bike.md":"自行车",
+    "study_note/chinese/bridge_in_heart.md":"心桥",
+    "study_note/chinese/culture_in_steam.md":"蒸汽腾腾里的传统文化",
+    "study_note/chinese/kapok.md":"木棉花",
+    "study_note/chinese/longan.md":"龙眼"
+}
