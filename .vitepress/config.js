@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import path from "node:path";
 import fs from "node:fs";
+import mathjax3 from "markdown-it-mathjax3";
 
 // 文件根目录
 const DIR_PATH = path.resolve();
@@ -102,6 +103,11 @@ export default defineConfig({
   description: "description",
   // 设置base为/，确保网站部署到域名根目录
   base: "/",
+  markdown: {
+    config: (md) => {
+      md.use(mathjax3);
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // 页面左上方导航栏

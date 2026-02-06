@@ -1,5 +1,4 @@
 .vitepress/cache
-node_modules
 .git
 *.git
 .vscode
