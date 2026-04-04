@@ -1,4 +1,7 @@
 .vitepress/cache
+.vitepress/dist
 .git
 *.git
 .vscode
+node_modules
+.trae

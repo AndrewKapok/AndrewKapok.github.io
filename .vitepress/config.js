@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import path from "node:path";
 import fs from "node:fs";
 import mathjax3 from "markdown-it-mathjax3";
+import timeline from "vitepress-markdown-timeline";
 
 // 文件根目录
 const DIR_PATH = path.resolve();
@@ -106,6 +107,7 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(mathjax3);
+      md.use(timeline);
     },
   },
   themeConfig: {
@@ -114,7 +116,7 @@ export default defineConfig({
     nav: [{ text: "Home", link: "/" }],
     // 底部配置
     footer: {
-      copyright: "Copyright@ 2025 Andrew Kapok",
+      copyright: "Copyright@ 2026 Andrew Kapok",
     },
     sidebar: sidebar,
 
