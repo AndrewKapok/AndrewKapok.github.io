@@ -14,6 +14,10 @@ updates:
       - "dependencies"
       - "npm"
     versioning-strategy: "auto"
+    groups:
+      npm-dependencies:
+        patterns:
+          - "*"
 
   # GitHub Actions 工作流更新配置
   - package-ecosystem: "github-actions"
@@ -27,3 +31,8 @@ updates:
     labels:
       - "dependencies"
       - "github-actions"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+
